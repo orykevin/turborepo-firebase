@@ -5,18 +5,18 @@ This repository is a monorepo managed with [Turborepo](https://turbo.build/repo)
 ## Project Structure
 
 - `apps/`
-  - `web/`: Next.js application.
-  - `api/`: Express application.
+  - `web/`: Next.js application.
+  - `api/`: Express application.
 - `packages/`
-  - `shared/`: Shared utilities and configurations.
+  - `shared/`: Shared utilities and configurations.
 
 ## Prerequisites
 
 Ensure you have the following installed:
 
-- [Node.js](https://nodejs.org/en/download/)
-- [npm](https://www.npmjs.com/get-npm)
-- [Firebase CLI](https://firebase.google.com/docs/cli)
+- [Node.js](https://nodejs.org/en/download/)
+- [npm](https://www.npmjs.com/get-npm)
+- [Firebase CLI](https://firebase.google.com/docs/cli)
 
 ## Setup
 
@@ -25,7 +25,6 @@ Ensure you have the following installed:
    ```bash
    npm install
    ```
-
 
 2. **Configure Firebase**:
 
@@ -43,7 +42,7 @@ To start the development servers for both applications:
 ```bash
 npm run dev
 ```
-
+
 
 ## Build
 
@@ -53,4 +52,3 @@ To build all applications and packages:
 ```bash
 npm run build
 ```
-
