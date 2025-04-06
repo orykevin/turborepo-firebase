@@ -1,0 +1,15 @@
+{
+    "name": "@v1/shared",
+    "version": "0.1.0",
+    "main": "dist/src/index.d.ts",
+    "types": "dist/src/index.d.ts",
+    "scripts": {
+        "dev": "echo 'No dev script in shared package'",
+        "lint": "eslint . --ext .ts",
+        "build": "tsc --build"
+    },
+    "devDependencies": {
+        "eslint": "^8.57.0",
+        "typescript": "^5.4.5"
+    }
+}

@@ -1,0 +1,25 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "target": "ES2016",  
+    "module": "CommonJS",                     
+    "outDir": "./dist",                      
+    "rootDir": "./",                          
+    "esModuleInterop": true,                  
+    "forceConsistentCasingInFileNames": true,  
+    "strict": true,                          
+    "skipLibCheck": true,                     
+    "resolveJsonModule": true,
+    "paths" : {
+      "@v1/shared": ["../../packages/shared/dist/src/index.d.ts"]
+    }             
+  },
+  "include": [
+    "**/*.ts" 
+  ],
+  "exclude": [
+    "node_modules", 
+    "dist"
+  ],
+  "references": [{ "path": "../../packages/shared" }]
+}
